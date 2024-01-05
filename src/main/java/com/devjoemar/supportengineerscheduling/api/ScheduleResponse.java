@@ -1,4 +1,4 @@
-package com.devjoemar.supportengineerscheduling.dto;
+package com.devjoemar.supportengineerscheduling.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

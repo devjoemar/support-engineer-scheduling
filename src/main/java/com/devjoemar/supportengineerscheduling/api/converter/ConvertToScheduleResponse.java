@@ -1,6 +1,6 @@
 package com.devjoemar.supportengineerscheduling.api.converter;
 
-import com.devjoemar.supportengineerscheduling.dto.ScheduleResponse;
+import com.devjoemar.supportengineerscheduling.api.ScheduleResponse;
 import com.devjoemar.supportengineerscheduling.model.Engineer;
 
 

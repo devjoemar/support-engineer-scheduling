@@ -3,24 +3,20 @@ package com.devjoemar.supportengineerscheduling.controller;
 import com.devjoemar.supportengineerscheduling.api.ApiResponse;
 import com.devjoemar.supportengineerscheduling.api.ScheduleRequest;
 import com.devjoemar.supportengineerscheduling.api.converter.ConvertToScheduleResponse;
-import com.devjoemar.supportengineerscheduling.dto.ScheduleResponse;
+import com.devjoemar.supportengineerscheduling.api.ScheduleResponse;
 import com.devjoemar.supportengineerscheduling.model.Engineer;
 import com.devjoemar.supportengineerscheduling.service.ScheduleService;
 import com.devjoemar.supportengineerscheduling.util.Constant;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1/schedule")
